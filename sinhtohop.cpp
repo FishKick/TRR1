@@ -24,6 +24,8 @@ int main(){
 			x[i]++;
 			for (int j = i + 1; j <= k; j++){
 				x[j] = x[i] + j - i;
+//				x[j] = x[j-1] + 1; làm thế này cũng đc
+				
 			}
 		}
 	}
